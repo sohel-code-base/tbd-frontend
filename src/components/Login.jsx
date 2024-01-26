@@ -3,7 +3,6 @@ import {
     TextInput,
     PasswordInput,
     Button,
-    Title,
     Box, Tooltip,
     Center,
     Image
@@ -46,9 +45,9 @@ import Logo from '../assets/images/tbd-logo.png'
     return (
       <Box component='form' className={LoginPage.wrapper} h={height} onSubmit={form.onSubmit((values) => login(values))}>
         <Paper className={LoginPage.form} radius={0} p={10} h={height} ml={`auto`} maw={350}>
-            <Center>
-                <Image src={Logo} />
-            </Center>
+          <Center>
+            <Image src={Logo} />
+          </Center>
 
           <Tooltip
             label={'Invalied email'}
@@ -60,8 +59,8 @@ import Logo from '../assets/images/tbd-logo.png'
             withArrow
             offset={2}
             transitionProps={{ transition: 'pop-bottom-left', duration: 500 }}
-            >
-                <TextInput withAsterisk label="Email" placeholder="Email" size='xs' {...form.getInputProps('email')} />
+          >
+            <TextInput withAsterisk label="Email" placeholder="Email" size='xs' {...form.getInputProps('email')} />
                 
           </Tooltip>
           <Tooltip
@@ -74,8 +73,8 @@ import Logo from '../assets/images/tbd-logo.png'
             withArrow
             offset={2}
             transitionProps={{ transition: 'pop-bottom-left', duration: 500 }}
-            >
-                <PasswordInput withAsterisk label="Password" placeholder="Your password" mt="md" size="xs" {...form.getInputProps('password')} />
+          >
+            <PasswordInput withAsterisk label="Password" placeholder="Your password" mt="md" size="xs" {...form.getInputProps('password')} />
                 
           </Tooltip>
           <Button type='submit' fullWidth mt="xl" size="xs" leftSection={<IconLogin />}>
