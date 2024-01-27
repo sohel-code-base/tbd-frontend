@@ -9,7 +9,9 @@ import { BrowserRouter } from 'react-router-dom';
 import './i18n.js'
 
 const theme = createTheme({
-  primaryColor: 'indigo'
+  primaryColor: 'indigo',
+  // fontFamily: 'sans-serif',
+  fontFamily: 'sans-serif'
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
