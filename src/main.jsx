@@ -11,12 +11,16 @@ import './i18n.js'
 const theme = createTheme({
   primaryColor: 'indigo',
   // fontFamily: 'sans-serif',
-  fontFamily: 'sans-serif'
+  fontFamily: 'Open Sans, sans-serif',
+  // autoContrast: true,
+  // defaultRadius: 'xl'
+
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     
+    {/* <MantineProvider theme={theme} defaultColorScheme="dark" classNamesPrefix="terminalbd"> */}
     <MantineProvider theme={theme}>
       <BrowserRouter>
       

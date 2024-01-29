@@ -19,7 +19,7 @@ function _Datatable() {
         })
     },[])
 
-    console.log(records)
+    // console.log(records)
   return (
     <DataTable
         withTableBorder
