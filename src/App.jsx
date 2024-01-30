@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     {token ? navigate('/') : navigate('/login')}
-  },[])
+  }, [])
   return (
     
         <Routes>

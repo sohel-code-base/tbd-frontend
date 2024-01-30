@@ -149,7 +149,7 @@ import {useNavigate} from 'react-router-dom'
                 <Tooltip label={navbarOpened ? t('collapse_navbar') : t('expand_navbar')} bg={`green`}>
                     <Burger opened={navbarOpened} onClick={toggleNavbar} size="sm" />
                 </Tooltip>
-                <Image src={Logo} w={100} />
+                <Image src={Logo} w={140} />
                 <HoverCard width={600} position="bottom" radius="md" shadow="md" withinPortal>
                   <HoverCard.Target>
                       <Center inline fw={500} fz={`var(--mantine-font-size-sm)`} style={{cursor: 'default'}}>
