@@ -9,6 +9,10 @@
     "log_out": "Log out",
     "collapse_right_sidebar": "Collapse right sidebar",
     "expand_right_sidebar": "Expand right sidebar",
-    "dashboard": "Dashboard"
+    "dashboard": "Dashboard",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
 
   }

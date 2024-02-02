@@ -9,7 +9,11 @@
     "log_out": "লগ আউট",
     "collapse_right_sidebar": "সঙ্কুচিত করুন",
     "expand_right_sidebar": "বিস্তৃত করুন",
-    "dashboard": "ড্যাশবোর্ড"
+    "dashboard": "ড্যাশবোর্ড",
+    "name": "নাম",
+    "email": "ইমেইল",
+    "phone": "ফোন",
+    "address": "ঠিকানা"
 
 
 

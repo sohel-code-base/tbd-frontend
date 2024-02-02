@@ -10,7 +10,10 @@ import {
   IconTrash,
 } from "@tabler/icons-react";
 import "mantine-datatable/styles.css";
+import { useOutletContext } from "react-router-dom";
 function _Datatable() {
+  const { isOnline, mainAreaHeight } = useOutletContext();
+
   const [records, setRecords] = useState([]);
   useEffect(() => {
     axios({
@@ -32,7 +35,7 @@ function _Datatable() {
       withColumnBorders
       pinLastColumn
       pinFirstColumn
-      height={450}
+      height={mainAreaHeight - 36} // 36 is tab list height
       scrollAreaProps={{ type: "hover", scrollbarSize: 4 }}
       columns={[
         { accessor: "id" },

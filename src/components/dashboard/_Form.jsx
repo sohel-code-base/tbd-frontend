@@ -69,10 +69,10 @@ function _Form() {
   return (
     <Box
       component="form"
-      mx="auto"
+      // mx="auto"
       onSubmit={form.onSubmit((values) => setSaveFormData(values))}
     >
-      <Grid>
+      <Grid gap={0}>
         <Grid.Col span={4}>
           <Tooltip
             label={"Name must be 2-10 characters long"}
